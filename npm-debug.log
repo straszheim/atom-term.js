@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.26/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/fka/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+12 verbose folder .
+13 info prepublish atom-term.js@0.0.52
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/fka/.npm/1f1177db-tar.lock
+16 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+17 verbose lock tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz /Users/fka/.npm/e1e7f8d9-23493-0-6680444981902838-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+21 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+22 verbose tar unpack /var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+23 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+24 verbose lock tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package /Users/fka/.npm/f0b979cc-23493-0-6680444981902838-package.lock
+25 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+26 verbose lock tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz /Users/fka/.npm/e1e7f8d9-23493-0-6680444981902838-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry index.js
+33 silly gunzTarPerm extractEntry Makefile
+34 silly gunzTarPerm extractEntry example/index.js
+35 silly gunzTarPerm extractEntry example/index.html
+36 silly gunzTarPerm extractEntry lib/index.js
+37 silly gunzTarPerm extractEntry src/term.js
+38 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+39 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+40 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+41 silly lockFile e1e7f8d9-23493-0-6680444981902838-tmp-tgz tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/tmp.tgz
+42 verbose tar pack [ '/Users/fka/.npm/atom-term.js/0.0.52/package.tgz',
+42 verbose tar pack   '/var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package' ]
+43 verbose tarball /Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+44 verbose folder /var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+45 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+46 verbose lock tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package /Users/fka/.npm/f0b979cc-23493-0-6680444981902838-package.lock
+47 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+48 verbose lock tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz /Users/fka/.npm/87037ad8--atom-term-js-0-0-52-package-tgz.lock
+49 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+50 silly lockFile f0b979cc-23493-0-6680444981902838-package tar:///var/folders/fl/rdn2hblx5qd8jy2yqs4m1zl00000gn/T/npm-17742-WI3peNQ4/1400181823493-0.6680444981902838/package
+51 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+52 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+53 silly lockFile 05a8b108--npm-atom-term-js-0-0-52-package /Users/fka/.npm/atom-term.js/0.0.52/package
+54 verbose lock /Users/fka/.npm/atom-term.js/0.0.52/package /Users/fka/.npm/05a8b108--npm-atom-term-js-0-0-52-package.lock
+55 silly lockFile 05a8b108--npm-atom-term-js-0-0-52-package /Users/fka/.npm/atom-term.js/0.0.52/package
+56 silly lockFile 05a8b108--npm-atom-term-js-0-0-52-package /Users/fka/.npm/atom-term.js/0.0.52/package
+57 verbose tar unpack /Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+58 silly lockFile 74bbe87c--npm-atom-term-js-0-0-52-package tar:///Users/fka/.npm/atom-term.js/0.0.52/package
+59 verbose lock tar:///Users/fka/.npm/atom-term.js/0.0.52/package /Users/fka/.npm/74bbe87c--npm-atom-term-js-0-0-52-package.lock
+60 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+61 verbose lock tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz /Users/fka/.npm/87037ad8--atom-term-js-0-0-52-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm extractEntry README.md
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm extractEntry index.js
+68 silly gunzTarPerm extractEntry Makefile
+69 silly gunzTarPerm extractEntry example/index.js
+70 silly gunzTarPerm extractEntry example/index.html
+71 silly gunzTarPerm extractEntry lib/index.js
+72 silly gunzTarPerm extractEntry src/term.js
+73 silly lockFile 74bbe87c--npm-atom-term-js-0-0-52-package tar:///Users/fka/.npm/atom-term.js/0.0.52/package
+74 silly lockFile 74bbe87c--npm-atom-term-js-0-0-52-package tar:///Users/fka/.npm/atom-term.js/0.0.52/package
+75 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+76 silly lockFile 87037ad8--atom-term-js-0-0-52-package-tgz tar:///Users/fka/.npm/atom-term.js/0.0.52/package.tgz
+77 verbose chmod /Users/fka/.npm/atom-term.js/0.0.52/package.tgz 644
+78 verbose chown /Users/fka/.npm/atom-term.js/0.0.52/package.tgz [ 501, 20 ]
+79 silly lockFile 3a52ce78- .
+80 silly lockFile 3a52ce78- .
+81 silly publish { name: 'atom-term.js',
+81 silly publish   description: 'A terminal written in JavaScript, fork for Atom Term2 package',
+81 silly publish   author: { name: 'Fatih Kadir Akin' },
+81 silly publish   version: '0.0.52',
+81 silly publish   main: './index.js',
+81 silly publish   preferGlobal: false,
+81 silly publish   repository: { type: 'git', url: 'git://github.com/webBoxio/term.js.git' },
+81 silly publish   homepage: 'https://github.com/webBoxio/term.js',
+81 silly publish   bugs: { url: 'https://github.com/webBoxio/term.js/issues' },
+81 silly publish   keywords: [ 'tty', 'terminal', 'term', 'xterm' ],
+81 silly publish   tags: [ 'tty', 'terminal', 'term', 'xterm' ],
+81 silly publish   engines: { node: '>= 0.8.0' },
+81 silly publish   devDependencies: { express: '3.1.0', 'socket.io': '0.9.13', 'pty.js': '0.2.4' },
+81 silly publish   readme: '# atom-term.js\n\nA full xterm clone written in JavaScript.\n\nFork of [**term.js**](https://github.com/chjj/term.js) to work on Atom Term 2.\n\n## License\n\nCopyright (c) 2012-2013, Christopher Jeffrey (MIT License)\n',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   _id: 'atom-term.js@0.0.52',
+81 silly publish   dist: { shasum: 'c39772131c952fd00ce0571c31e105ab8f92f3e6' },
+81 silly publish   _from: '.' }
+82 verbose url raw atom-term.js
+83 verbose url resolving [ 'https://registry.npmjs.org/', './atom-term.js' ]
+84 verbose url resolved https://registry.npmjs.org/atom-term.js
+85 info trying registry request attempt 1 at 22:23:43
+86 http PUT https://registry.npmjs.org/atom-term.js
+87 http 403 https://registry.npmjs.org/atom-term.js
+88 error publish Failed PUT 403
+89 error Error: forbidden cannot modify pre-existing version: 0.0.52
+89 error old={"name":"atom-term.js","description":"A terminal written in JavaScript, fork for Atom Term2 package","author":{"name":"Fatih Kadir Akin"},"version":"0.0.52","main":"./index.js","preferGlobal":false,"repository":{"type":"git","url":"git://github.com/webBoxio/term.js.git"},"homepage":"https://github.com/webBoxio/term.js","bugs":{"url":"https://github.com/webBoxio/term.js/issues"},"keywords":["tty","terminal","term","xterm"],"tags":["tty","terminal","term","xterm"],"engines":{"node":">= 0.8.0"},"devDependencies":{"express":"3.1.0","socket.io":"0.9.13","pty.js":"0.2.4"},"_id":"atom-term.js@0.0.52","dist":{"shasum":"c39772131c952fd00ce0571c31e105ab8f92f3e6","tarball":"http://registry.npmjs.org/atom-term.js/-/atom-term.js-0.0.52.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"fkadev","email":"fka@fatihak.in"},"maintainers":[{"name":"fkadev","email":"fka@fatihak.in"}]}
+89 error new={"name":"atom-term.js","description":"A terminal written in JavaScript, fork for Atom Term2 package","author":{"name":"Fatih Kadir Akin"},"version":"0.0.52","main":"./index.js","preferGlobal":false,"repository":{"type":"git","url":"git://github.com/webBoxio/term.js.git"},"homepage":"https://github.com/webBoxio/term.js","bugs":{"url":"https://github.com/webBoxio/term.js/issues"},"keywords":["tty","terminal","term","xterm"],"tags":["tty","terminal","term","xterm"],"engines":{"node":">= 0.8.0"},"devDependencies":{"express":"3.1.0","socket.io":"0.9.13","pty.js":"0.2.4"},"readme":"# atom-term.js\u000a\u000aA full xterm clone written in JavaScript.\u000a\u000aFork of [**term.js**](https://github.com/chjj/term.js) to work on Atom Term 2.\u000a\u000a## License\u000a\u000aCopyright (c) 2012-2013, Christopher Jeffrey (MIT License)\u000a","readmeFilename":"README.md","_id":"atom-term.js@0.0.52","dist":{"shasum":"c39772131c952fd00ce0571c31e105ab8f92f3e6","tarball":"http://registry.npmjs.org/atom-term.js/-/atom-term.js-0.0.52.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"fkadev","email":"fka@fatihak.in"},"maintainers":[{"name":"fkadev","email":"fka@fatihak.in"}]}: atom-term.js
+89 error     at RegClient.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+89 error     at Request.self.callback (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+89 error     at Request.EventEmitter.emit (events.js:98:17)
+89 error     at Request.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+89 error     at Request.EventEmitter.emit (events.js:117:20)
+89 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/node/0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+89 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+89 error     at _stream_readable.js:920:16
+89 error     at process._tickCallback (node.js:415:13)
+90 error If you need help, you may report this *entire* log,
+90 error including the npm and node versions, at:
+90 error     <http://github.com/npm/npm/issues>
+91 error System Darwin 13.1.0
+92 error command "/usr/local/Cellar/node/0.10.26/bin/node" "/usr/local/bin/npm" "publish"
+93 error cwd /Users/fka/Code/atom-term.js
+94 error node -v v0.10.26
+95 error npm -v 1.4.3
+96 verbose exit [ 1, true ]
