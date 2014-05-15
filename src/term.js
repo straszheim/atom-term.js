@@ -2649,7 +2649,8 @@ Terminal.prototype.setgCharset = function(g, charset) {
 Terminal.prototype.keyPress = function(ev) {
   var key;
 
-  cancel(ev);
+  // disabling it due to fix Atom's special character fixes.
+  // cancel(ev);
 
   if (ev.charCode) {
     key = ev.charCode;
@@ -2661,7 +2662,8 @@ Terminal.prototype.keyPress = function(ev) {
     return false;
   }
 
-  if (!key || ev.ctrlKey || ev.altKey || ev.metaKey) return false;
+  // why not?
+  // if (!key || ev.ctrlKey || ev.altKey || ev.metaKey) return false;
 
   key = String.fromCharCode(key);
 
@@ -5623,7 +5625,10 @@ function off(el, type, handler, capture) {
 
 function cancel(ev) {
   // Commented this out as this stops atom from recieveing any key combos while terminal is active
-  //if (ev.preventDefault) ev.preventDefault();
+
+  if (ev.preventDefault) {
+    ev.preventDefault();
+  }
   //ev.returnValue = false;
   //if (ev.stopPropagation) ev.stopPropagation();
   //ev.cancelBubble = true;
