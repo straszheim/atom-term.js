@@ -2,7 +2,7 @@
   "name": "atom-term.js",
   "description": "A terminal written in JavaScript, fork for Atom Term2 package",
   "author": "Fatih Kadir Akin",
-  "version": "0.0.5",
+  "version": "0.0.51",
   "main": "./index.js",
   "preferGlobal": false,
   "repository": "git://github.com/webBoxio/term.js.git",
