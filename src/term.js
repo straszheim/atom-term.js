@@ -1313,7 +1313,9 @@ Terminal.prototype.refresh = function(start, end) {
       out += '</span>';
     }
 
-    this.children[y].innerHTML = out;
+    if (this.children[y]) {
+      this.children[y].innerHTML = out;
+    }
   }
 
   if (parent) parent.appendChild(this.element);
