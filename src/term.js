@@ -5622,10 +5622,11 @@ function off(el, type, handler, capture) {
 }
 
 function cancel(ev) {
-  if (ev.preventDefault) ev.preventDefault();
-  ev.returnValue = false;
-  if (ev.stopPropagation) ev.stopPropagation();
-  ev.cancelBubble = true;
+  // Commented this out as this stops atom from recieveing any key combos while terminal is active
+  //if (ev.preventDefault) ev.preventDefault();
+  //ev.returnValue = false;
+  //if (ev.stopPropagation) ev.stopPropagation();
+  //ev.cancelBubble = true;
   return false;
 }
 
