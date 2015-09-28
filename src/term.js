@@ -2523,12 +2523,6 @@ Terminal.prototype.keyDown = function(ev) {
         key = '\x1b[6~';
       }
       break;
-    // CTRL-K
-    case 75:
-      if ((!isMac && ev.ctrlKey) || (isMac && ev.metaKey)) {
-        this.clear();
-        return cancel(ev);
-      }
     // F1
     case 112:
       key = '\x1bOP';
@@ -2577,6 +2571,13 @@ Terminal.prototype.keyDown = function(ev) {
     case 123:
       key = '\x1b[24~';
       break;
+    // CTRL-K
+    case 75:
+      if ((!this.isMac && ev.ctrlKey) || (this.isMac && ev.metaKey)) {
+        this.clear();
+        return cancel(ev);
+      }
+      // Falls through so that the letter K is handled as expected
     default:
       // a-z and space
       if (ev.ctrlKey) {
