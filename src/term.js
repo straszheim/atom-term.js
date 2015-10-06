@@ -1081,7 +1081,14 @@ Terminal.prototype.bindMouse = function() {
     // fix for odd bug
     //if (self.vt200Mouse && !self.normalMouse) {
     if (self.vt200Mouse) {
-      sendButton({ __proto__: ev, type: 'mouseup' });
+      var syntheticEvent = {};
+
+      for (var key in event) {
+        syntheticEvent[key] = event[key]
+      }
+
+      syntheticEvent.type = 'mouseup';
+      sendButton(syntheticEvent);
       return cancel(ev);
     }
 
