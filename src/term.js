@@ -1126,7 +1126,6 @@ Terminal.prototype.bindMouse = function() {
   // the shell for example
   on(el, wheelEvent, function(ev) {
     if (self.mouseEvents) return;
-    if (self.applicationKeypad) return;
     if (ev.type === 'DOMMouseScroll') {
       self.scrollDisp(ev.detail < 0 ? -5 : 5);
     } else {
