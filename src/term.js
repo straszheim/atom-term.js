@@ -184,6 +184,7 @@ function Terminal(options) {
   this.rows = options.rows || options.geometry[1];
 
   if (options.handler) {
+    this.off('data', options.handler);
     this.on('data', options.handler);
   }
 
