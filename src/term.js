@@ -2580,11 +2580,13 @@ Terminal.prototype.keyDown = function(ev) {
       break;
     // CTRL-K
     case 75:
-      console.log("DEV VERSION");
-      if ((!this.isMac && ev.ctrlKey) || (this.isMac && ev.metaKey)) {
-        this.clear();
-        return cancel(ev);
-      }
+      // TDS: don't know what this hackery was but
+      // probalby has something to do with that stupid K keybinding
+
+      //if ((!this.isMac && ev.ctrlKey) || (this.isMac && ev.metaKey)) {
+      //this.clear();
+      //return cancel(ev);
+      //}
       // Falls through so that the letter K is handled as expected
     default:
       // a-z and space
