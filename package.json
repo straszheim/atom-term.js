@@ -5,7 +5,7 @@
   "version": "0.0.55",
   "main": "./index.js",
   "preferGlobal": false,
-  "repository": "git://github.com/f/atom-term.js.git",
+  "repository": "git://github.com/straszheim/atom-term.js.git",
   "homepage": "https://github.com/f/atom-term.js",
   "bugs": {
     "url": "https://github.com/f/atom-term.js/issues"
